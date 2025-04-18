@@ -85,31 +85,31 @@ Below are the results for three example target images using a single query objec
 #### 2. **Test Image 2**
 
 *Query and Target:*
-![Query Image 2](test images\everything.jpeg)
-![Target Image 2](main/everything.jpg)
+![Query Image 2](test-images/shirt.jpg)
+![Target Image 2](test-images/everything.jpg)
 
 *Detection Result:*
-![Detection 2](main/everythingR.jpg)
+![Detection 2](test-images/shirtR.jpg)
 
 #### 3. **Test Image 3**
 
 *Query and Target:*
-![Query Image 3](main/everthing.jpg)
-![Target Image 3](main/tool_box.jpg)
+![Query Image 3](test-images/toolbox.jpg)
+![Target Image 3](test-images/everything.jpg)
 
 *Detection Result:*
-![Detection 3](main/tool_box_R.jpg)
+![Detection 3](test-images/toolboxR.jpg)
 
 #### 4. **Test Image 4**
 
 *Query and Target:*
-![Query Image 4](main/socks.jpg)
-![Target Image 4](main/table_lighter.jpg)
+![Query Image 4](test-images/towel.jpg)
+![Target Image 4](test-images/table.jpg)
 
 
 
 *Detection Result:*
-![Detection 3](results/targetR.jpg)
+![Detection 3](test-images/towelR.jpg)
 ---
 
 ### Video Detection
@@ -118,7 +118,7 @@ Below are the results for three example target images using a single query objec
 - **Output:**  
   The result video highlights the detected object in green for each frame where it is found.
 
-[![Demo Video](results/queryAA.jpg)](results/output_detected_(4).mp4)
+[![Demo Video](test-images/boat.jpg)](test-images/boatR.mp4)
 *(Click to view the video)*
 
 ---
