@@ -76,42 +76,37 @@ Below are the results for three example target images using a single query objec
 #### 1. **Test Image 1**
 
 *Query and Target:*
-![Query Image 1](results/passport.jpg)
-![Target Image 1](results/table.jpg)
+![Query Image 1](main/passport.jpg)
+![Target Image 1](main/table.jpg)
 
 *Detection Result:*
-![Detection 1](results/tableR.jpg)
+![Detection 1](main/tableR.jpg)
 
 #### 2. **Test Image 2**
 
 *Query and Target:*
-![Query Image 2](results/tshirt.jpg)
-![Target Image 2](results/everything.jpg)
+![Query Image 2](main/tshirt.jpg)
+![Target Image 2](main/everything.jpg)
 
 *Detection Result:*
-![Detection 2](results/everythingR.jpg)
+![Detection 2](main/everythingR.jpg)
 
 #### 3. **Test Image 3**
 
 *Query and Target:*
-![Query Image 3](results/everthing.jpg)
-![Target Image 3](results/tool_box.jpg)
+![Query Image 3](main/everthing.jpg)
+![Target Image 3](main/tool_box.jpg)
 
 *Detection Result:*
-![Detection 3](results/everythingRR.jpg)
+![Detection 3](main/tool_box_R.jpg)
 
 #### 4. **Test Image 4**
 
 *Query and Target:*
-![Query Image 4](results/socks.jpg)
-![Target Image 4](results/table_lighter.jpg)
+![Query Image 4](main/socks.jpg)
+![Target Image 4](main/table_lighter.jpg)
 
 
-#### 5. **Test Image 5**
-
-*Query and Target:*
-![Query Image 5](results/query.jpg)
-![Target Image 5](results/target.jpg)
 
 *Detection Result:*
 ![Detection 3](results/targetR.jpg)
@@ -123,7 +118,7 @@ Below are the results for three example target images using a single query objec
 - **Output:**  
   The result video highlights the detected object in green for each frame where it is found.
 
-[![Demo Video](results/queryAA.jpg)](results/output_detected.mp4)
+[![Demo Video](results/queryAA.jpg)](results/output_detected_(4).mp4)
 *(Click to view the video)*
 
 ---
