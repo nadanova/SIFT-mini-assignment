@@ -76,11 +76,11 @@ Below are the results for three example target images using a single query objec
 #### 1. **Test Image 1**
 
 *Query and Target:*
-![Query Image 1](main/passport.jpg)
-![Target Image 1](main/table.jpg)
+![Query Image 1](main/test-images/passport.jpeg)
+![Target Image 1](main/test-images/table.jpeg)
 
 *Detection Result:*
-![Detection 1](main/tableR.jpg)
+![Detection 1](main/test-images/tableR.png)
 
 #### 2. **Test Image 2**
 
