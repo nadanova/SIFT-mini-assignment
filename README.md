@@ -85,7 +85,7 @@ Below are the results for three example target images using a single query objec
 #### 2. **Test Image 2**
 
 *Query and Target:*
-![Query Image 2](main/tshirt.jpg)
+![Query Image 2](test images\everything.jpeg)
 ![Target Image 2](main/everything.jpg)
 
 *Detection Result:*
