@@ -8,7 +8,7 @@
   - [Video Object Detection (Bonus)](#video-object-detection-bonus)
 - [Results](#results)
   - [Test Images](#test-images)
-  - [Bonus: Video Detection](#bonus-video-detection)
+  - [Video Detection](#video-detection)
 - [Discussion](#discussion)
 - [How to Run](#how-to-run)
 - [References](#references)
@@ -23,7 +23,7 @@ Given a query image (the object you want to find) and a target image (or video),
 The project covers:
 - SIFT-based matching between a query and a target image.
 - Drawing detected object location in the target image.
-- (Bonus) Detecting and marking the object in each frame of a video.
+- Detecting and marking the object in each frame of a video.
 
 ---
 
@@ -112,7 +112,7 @@ Below are the results for three example target images using a single query objec
 ![Detection 3](results/targetR.jpg)
 ---
 
-### Bonus: Video Detection
+### Video Detection
 
 - **Input video:** A sample video containing the object moving or appearing in different frames.
 - **Output:**  
@@ -149,11 +149,10 @@ Below are the results for three example target images using a single query objec
 
 #### Image detection:
 ```python
-# Replace with your image paths
-query_image_path = "query1.jpg"
-target_image_path = "target1.jpg"
-# Run the function (see sift_image_detection.py for full code)
-feature_matching(query_image_path, target_image_path, use_sift=True)
+# Replace with your image paths at the beginning of the code
+query_color = cv2.imread('query.jpg')
+target_color = cv2.imread('target.jpg')
+# then run the code
 ```
 
 #### Video detection:
